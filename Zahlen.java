@@ -1,16 +1,17 @@
 package weber_straeszler_steinwender;
 
 import java.util.Collections;
-import java.util.HashSet;
+import java.util.LinkedList;
 
 /**
+ * Klasse die Berechnungen von Zahlen ermöglicht
  * 
  * @author Martin
- *
+ * @version 1.0
  */
 public class Zahlen {
 	
-	private HashSet<Double> zahlen; 
+	private LinkedList<Double> zahlen; 
 	
 	/**
 	 * 
