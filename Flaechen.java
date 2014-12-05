@@ -28,34 +28,16 @@ public class Flaechen {
 	}
 	
 	/**
-	 * gleichseitiges dreieck
-	 * @param a eine seite
-	 * @return flaeche
-	 */
-	public double flaecheD(int a){
-		double e = ((a*a)/4)*Math.sqrt(3);
-		return e;
-	}
-	
-	/**
-	 * gleichschenkeliges und allgemeines Dreieck
-	 * @param a eine seite
-	 * @param h	die dazugehoerige hoehe
-	 * @return flaeche
-	 */
-	public double flaecheD(int a, int h){
-		double e = (1/2) * a * h;
-		return e;
-	}
-	
-	/**
-	 * rechtwinkeliges Dreieck
+	 * dreieck
 	 * @param a seite a
 	 * @param b seite b
+	 * @param c seite c
 	 * @return flaeche
 	 */
-	public double flaecheDRecht(int a, int b){
-		double e = (1/2) * a * b;
+	public double flaecheD(int a, int b, int c){
+		double s = (a + b + c)/2;
+		double e = Math.sqrt(s * (s-a) * (s-b) * (s-c));
 		return e;
 	}
+	
 }
