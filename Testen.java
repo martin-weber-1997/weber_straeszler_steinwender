@@ -8,7 +8,11 @@ package weber_straeszler_steinwender;
  */
 public class Testen {
 
+	/**
+	 * 
+	 * @param args
+	 */
 	public static void main(String[]args){
-		
+		Rauminhalt test1= new Rauminhalt();
 	}
 }
