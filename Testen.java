@@ -19,7 +19,13 @@ public class Testen {
 		System.out.println("Das Mimimum der Zahlen: "+test2.min());
 		System.out.println("Die Summe der Zahlen: "+test2.summe());
 		
-		Rauminhalt test1= new Rauminhalt();
+		/*
+		 * Test von Rauminhalt
+		 */
+		System.out.println("Volumen eines Kegels mit Grundflaeche und Hoehe Gegeben: "+Rauminhalt.coneGH(20, 5));
+		System.out.println("Volumen eines Kegels mit Radius und hoehe gegeben "+Rauminhalt.conePIrh(10, 5));
+		System.out.println("Volumen eines Quaders mit a b und h gegeben "+Rauminhalt.cuboid(2,2,4));
+		System.out.println("Volumen einer Pyramide: "+Rauminhalt.pyramid(10, 5));
 
 		/*
 		 * testung der klasse flaechen

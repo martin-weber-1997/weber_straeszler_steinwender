@@ -22,7 +22,7 @@ public class Rauminhalt {
 	 * @param h
 	 * @return volume of a pyramid
 	 */
-	public double pyramid(double g, double h) {
+	public static double pyramid(double g, double h) {
 		return 1 / 3 * g * h;
 	}
 
@@ -34,8 +34,8 @@ public class Rauminhalt {
 	 * @param h
 	 * @return volume of a cone
 	 */
-	public double coneGH(double g, double h) {
-		return 1 / 3 * g * h;
+	public static double coneGH(double g, double h) {
+		return (1.0 / 3.0) * g * h;
 	}
 
 	/**
@@ -46,8 +46,8 @@ public class Rauminhalt {
 	 * @param h
 	 * @return volume of a cone
 	 */
-	public double conePIrh(double r, double h) {
-		return 1 / 3 * Math.PI * Math.pow(r, 2) * h;
+	public static double conePIrh(double r, double h) {
+		return (1.0 / 3.0) * Math.PI * Math.pow(r, 2) * h;
 	}
 
 	/**
@@ -57,7 +57,7 @@ public class Rauminhalt {
 	 * @param a
 	 * @return volume of a cuboid
 	 */
-	public double cuboid(double a) {
-		return Math.pow(a, 3);
+	public static double cuboid(double a, double b, double h) {
+		return a * b * h;
 	}
 }
