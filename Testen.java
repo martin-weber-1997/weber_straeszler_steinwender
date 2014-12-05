@@ -13,6 +13,7 @@ public class Testen {
 	 * @param args
 	 */
 	public static void main(String[]args){
+		
 		Rauminhalt test1= new Rauminhalt();
 	}
 }
