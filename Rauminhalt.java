@@ -1,6 +1,7 @@
 package weber_straeszler_steinwender;
 
 public class Rauminhalt {
+<<<<<<< HEAD
 	
 	/**
 	 * Returns the value of the volume from a pyramid
@@ -41,4 +42,7 @@ public class Rauminhalt {
 	public double cuboid(double a){
 		return Math.pow(a, 3);
 	}
+=======
+
+>>>>>>> d1fff75c7bebe47d606b60221c589fd4cbbccfdc
 }
