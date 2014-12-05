@@ -19,10 +19,18 @@ public class Testen {
 		Zahlen test2 = new Zahlen(2.0);
 		test2.add(1.0);
 		System.out.println("Testen der Zahlen Klasse: ");
+<<<<<<< HEAD
 		System.out.println("Das Maximum der Zahlen: " + test2.max());
 		System.out.println("Das Mimimum der Zahlen: " + test2.min());
 		System.out.println("Die Summe der Zahlen: " + test2.summe());
 
+=======
+		System.out.println("Das Maximum der Zahlen: "+test2.max());
+		System.out.println("Das Mimimum der Zahlen: "+test2.min());
+		System.out.println("Die Summe der Zahlen: "+test2.summe());
+		
+		System.out.println("");
+>>>>>>> 3a532f8be63e8e8bbab02b6cde45038aac85c3c8
 		/*
 		 * Test von Rauminhalt
 		 */
@@ -39,6 +47,7 @@ public class Testen {
 				.println("Volumen einer Pyramide mit der Grundflaeche=10 und Hoehe=5: "
 						+ Rauminhalt.pyramid(10, 5));
 
+		System.out.println("");
 		/*
 		 * testung der klasse flaechen
 		 */
