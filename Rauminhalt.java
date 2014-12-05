@@ -23,7 +23,7 @@ public class Rauminhalt {
 	 * @return volume of a pyramid
 	 */
 	public static double pyramid(double g, double h) {
-		return 1 / 3 * g * h;
+		return 1.0 / 3.0 * g * h;
 	}
 
 	/**
