@@ -4,22 +4,25 @@ package weber_straeszler_steinwender;
 
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.NoSuchElementException;
 
 /**
  * Klasse die Berechnungen von Zahlen ermöglicht
  * 
  * @author Martin
- * @version 1.0
+ * @version 1.1
  */
 public class Zahlen {
 	
 	private LinkedList<Double> zahlen; 
+	
 	
 	/**
 	 * 
 	 * @param z
 	 */
 	public Zahlen(double z){
+		zahlen=new LinkedList<Double>();
 		zahlen.add(z);
 	}
 	
@@ -52,7 +55,12 @@ public class Zahlen {
 	 * @return 
 	 */
 	public double min(){
-		return Collections.min(zahlen);
+		try {
+			return Collections.min(zahlen);
+		} catch (NoSuchElementException e) {
+			e.printStackTrace();
+			return 0.0;
+		}
 	}
 
 }
