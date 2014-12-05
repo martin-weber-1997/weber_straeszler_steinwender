@@ -23,6 +23,7 @@ public class Testen {
 		System.out.println("Das Mimimum der Zahlen: "+test2.min());
 		System.out.println("Die Summe der Zahlen: "+test2.summe());
 		
+		System.out.println("");
 		/*
 		 * Test von Rauminhalt
 		 */
@@ -32,6 +33,7 @@ public class Testen {
 		System.out.println("Volumen eines Quaders mit a b und h gegeben "+Rauminhalt.cuboid(2,2,4));
 		System.out.println("Volumen einer Pyramide: "+Rauminhalt.pyramid(10, 5));
 
+		System.out.println("");
 		/*
 		 * testung der klasse flaechen
 		 */
