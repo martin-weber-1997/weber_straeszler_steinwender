@@ -1,10 +1,5 @@
 package weber_straeszler_steinwender;
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> b8cb0e8f343d13808b0180d2c0dea54112df0397
 import java.util.Collections;
 import java.util.LinkedList;
 
@@ -58,9 +53,5 @@ public class Zahlen {
 	public double min(){
 		return Collections.min(zahlen);
 	}
-<<<<<<< HEAD
-	
-=======
 
->>>>>>> b8cb0e8f343d13808b0180d2c0dea54112df0397
 }
