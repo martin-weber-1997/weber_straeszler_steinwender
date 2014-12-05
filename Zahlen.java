@@ -1,10 +1,9 @@
 package weber_straeszler_steinwender;
 
-
-
 import java.util.Collections;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
+
 
 /**
  * Klasse die Berechnungen von Zahlen ermöglicht

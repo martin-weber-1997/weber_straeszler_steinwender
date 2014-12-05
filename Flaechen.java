@@ -34,7 +34,7 @@ public class Flaechen {
 	 * @param c seite c
 	 * @return flaeche
 	 */
-	public double flaecheD(int a, int b, int c){
+	public double flaecheD(double a, double b, double c){
 		double s = (a + b + c)/2;
 		double e = Math.sqrt(s * (s-a) * (s-b) * (s-c));
 		return e;

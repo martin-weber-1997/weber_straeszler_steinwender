@@ -21,5 +21,15 @@ public class Testen {
 		
 		Rauminhalt test1= new Rauminhalt();
 		
+<<<<<<< HEAD
+=======
+		/*
+		 * testung der klasse flaechen
+		 */
+		Flaechen f1 = new Flaechen();
+		System.out.println(f1.flaecheR(5, 9));
+		System.out.println(f1.flaecheK(4));
+		System.out.println(f1.flaecheD(2, 5, 4));
+>>>>>>> dbb03c9f9278a1b2fded8c9222412929eccb2f15
 	}
 }
